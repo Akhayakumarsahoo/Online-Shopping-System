@@ -1,0 +1,124 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 150px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andika";
+}
+#bg {
+  background-image: url("https://images.unsplash.com/photo-1549942686-486aa99d2223");
+  /*https://images.unsplash.com/photo-1549942686-486aa99d2223*/
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#banner_content {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  margin-top: 50px;
+  background-color: #141414;
+  min-height: 150px;
+  padding-top: 40px;
+  width: 100%;
+
+  bottom: 0;
+}
+.container a {
+  color: black;
+}
+.container a:hover {
+  color: grey;
+}
+#size {
+  max-height: 200px;
+}
+
+/* Product card styles */
+.card a {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+}
+
+.card a:hover {
+  transform: scale(1.02);
+}
+
+.card .figure-caption {
+  padding: 10px;
+}
+
+/* Product detail page styles */
+.product-detail img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.product-detail .lead {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+}
+
+.product-detail .text-muted {
+  font-size: 1.1rem;
+}
+
+.product-detail .btn-warning {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+}
+
+.product-detail .details-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* Search bar styles */
+.navbar .input-group {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .navbar .input-group {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.navbar .form-control {
+  border-radius: 20px 0 0 20px;
+  border: none;
+}
+
+.navbar .input-group-append .btn {
+  border-radius: 0 20px 20px 0;
+  border: none;
+}
+
+.navbar .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ffc107;
+}
